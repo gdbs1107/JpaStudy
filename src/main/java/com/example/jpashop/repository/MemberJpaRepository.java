@@ -1,6 +1,6 @@
 package com.example.jpashop.repository;
 
-import com.example.jpashop.domain.sad.Member;
+import com.example.jpashop.domain.Member;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
