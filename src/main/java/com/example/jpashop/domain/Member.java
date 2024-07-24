@@ -9,6 +9,8 @@ import lombok.*;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @ToString(of = {"id","username","age"})
+/*@NamedEntityGraph(name = "Member..all",attributeNodes = @NamedEntityGraph("team"))
+* 이런 방법도 있음 ( 거의 사용하지 않음 )*/
 public class Member {
 
     @Id
